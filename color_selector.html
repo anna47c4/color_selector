@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color selector</title>
+    <link rel="stylesheet" href="color_selector.css" />
+  </head>
+  <body>
+    <!-- the different DIV's in the wrapper are the color 'info' boxes -->
+    <div class="color_wrapper">
+      <div class="color"></div>
+      <div id="hex" class="inline">
+        <h3>HEX:</h3>
+        <p>#FF69B4</p>
+      </div>
+      <div id="rgb" class="inline">
+        <h3>RGB:</h3>
+        <p>255 105 180</p>
+      </div>
+      <div id="css" class="inline">
+        <h3>CSS:</h3>
+        <p>rgb(255 105 180)</p>
+      </div>
+      <div id="hsl" class="inline">
+        <h3>HSL:</h3>
+        <p>0.92 1.00 0.71</p>
+      </div>
+      <!-- the input type color is the one that makes the color wheel apear -->
+      <input type="color" id="color_selector" value="#FF69B4" />
+    </div>
+    <script src="color_selector.js"></script>
+  </body>
+</html>

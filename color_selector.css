@@ -1,0 +1,22 @@
+.color-wrapper {
+  background-color: #efefef;
+  padding: 2vw;
+  width: 75%;
+  border-radius: 2vw;
+}
+
+.color {
+  height: 20vw;
+  width: 20vw;
+  background-color: rgb(255 105 180);
+}
+
+.inline {
+  display: flex;
+  align-items: baseline;
+}
+
+.inline p {
+  margin-left: 10px;
+  font-style: italic;
+}
